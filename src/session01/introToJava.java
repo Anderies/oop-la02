@@ -6,7 +6,7 @@ public class introToJava {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+
 //		Declaring Variable
 		int x = 10;
 		double x1 = 20;
@@ -25,15 +25,17 @@ public class introToJava {
 		System.out.println(b);
 //		
 //		System.out.println(s2 + " " + s3 + " Yeahh!!");
-		
+
 //		Scanner
-		while(true) {
+		while (true) {
 			Scanner sc = new Scanner(System.in);
 			System.out.print("Masukkan Angka untuk dilipatkan dua : ");
 			int number = sc.nextInt();
 
 			System.out.println(number * 2);
 		}
+
+		
 
 	}
 

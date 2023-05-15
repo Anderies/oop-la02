@@ -38,9 +38,8 @@ public class wrapper {
 		
 //		Step 4 : Casting (It's More Popular)
 		Integer number2 = (Integer) x;
-		System.out.println("Increment : " + ++number);
+		System.out.println("Increment : " + number2.toString().length());
 				
-		
 	
 		
 	}
